@@ -112,7 +112,6 @@ def compute_rural_multiplying_factor(distance_km: float) -> float:
     else:
         return 2.00
 
-
 def calculate_rfctlarr_valuation(req: ValuationRequest) -> ValuationResponse:
     """
     Executes statutory compensation determination under RFCTLARR Act 2013 First Schedule.
